@@ -15,3 +15,6 @@ docker run --runtime=nvidia --rm -dit -v $PWD:/py -w /py -p 20080:2233 notebook 
 `requirments.txt` - library list
 
 `*.pkl` - models dumped for prediction, the number repesent the MSE , but larger MSE better performance on leaderboard ,seems `overfitted`,
+
+language: python3.
+docker env with GPU. 
