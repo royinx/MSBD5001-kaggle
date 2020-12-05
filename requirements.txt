@@ -1,0 +1,8 @@
+numpy>=1.15.1
+pandas
+scikit-learn
+notebook
+matplotlib
+seaborn
+scikit-optimize
+wwo_hist
